@@ -1,7 +1,7 @@
 :root {
   --color-white: hsl(0, 0%, 100%);
   --color-lightgray: hsl(244, 6%, 50%);
-  --color-grayishblue: hsl(220, 15%, 55%);
+  --color-grayishblue: hsl(212, 45%, 89%);
   --color-darkblue: hsl(218, 44%, 22%);
 
   --card-width: 16vw;
@@ -10,14 +10,14 @@
   --br: 1rem;
   --padding-card: 10px;
 
-  --fs-sm: 15px;
-  --fs-l: 1.5rem;
+  --fs-sm: 13px;
+  --fs-l: 18px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     :root {
-      --card-width: 78vw;
-      --card-height: 70vh;
+      --card-width: 74vw;
+      --card-height: 52vh;
     }
   }
   
@@ -31,7 +31,7 @@
   @media (min-width: 602px) and (max-width: 1280px) {
     :root {
       --card-width: 45vw;
-      --card-height: 48vh;
+      --card-height: 55vh;
     }
   }
 
