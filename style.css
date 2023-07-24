@@ -4,14 +4,14 @@
   --color-grayishblue: hsl(212, 45%, 89%);
   --color-darkblue: hsl(218, 44%, 22%);
 
-  --card-width: 16vw;
-  --card-height: 48vh;
+  --card-width: 17vw;
+  --card-height: 52vh;
 
   --br: 1rem;
   --padding-card: 10px;
 
-  --fs-sm: 13px;
-  --fs-l: 18px;
+  --fs-sm: 15px;
+  --fs-l: 20px;
 }
 
 @media (max-width: 376px) {
@@ -79,6 +79,7 @@ body {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  margin-top: 10px;
 }
 
 .lower::-webkit-scrollbar {
